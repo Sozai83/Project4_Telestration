@@ -4,10 +4,16 @@ class SceneMain extends Phaser.Scene {
     }
     preload()
     {
-    	
+    	//load images or sounds
     }
     create() {
-        console.log("Ready!");
+        //define our objects
+        console.log("Test");
     }
-    update() {}
+    update() {
+        //constant running loop
+    }
+    customFunctions(){
+        //custom functionalities we can call when we want
+    }
 }
